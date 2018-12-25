@@ -1,0 +1,11 @@
+@mixin borderBottom($width: 1px, $cl: black, $horz: bottom) {
+    border-#{$horz}-width: $width;
+    border-#{$horz}-color: $cl;
+    border-#{$horz}-style: solid;
+}
+
+@mixin border($cl: black, $width: 1px) {
+    border-width: $width;
+    border-color: $cl;
+    border-style: solid;
+}
